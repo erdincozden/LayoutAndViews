@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <inset
+                android:insetRight="@dimen/widgetPadding"
+                android:insetBottom="@dimen/widgetPadding"
+                android:insetTop="@dimen/widgetPadding"
+                android:insetLeft="@dimen/widgetPadding">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/buttonRadius"/>
+                    <solid android:color="@color/accentPink"/>
+                </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+                android:insetRight="@dimen/widgetPadding"
+                android:insetBottom="@dimen/widgetPadding"
+                android:insetTop="@dimen/widgetPadding"
+                android:insetLeft="@dimen/widgetPadding">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/buttonRadius"/>
+                <solid android:color="@color/primaryBlue"/>
+            </shape>
+        </inset>
+
+    </item>
+
+</selector>
